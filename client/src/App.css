@@ -1,0 +1,39 @@
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+input{
+  width: 300px;
+  height: 30px;
+  border:2px solid rgb(149, 146, 146);
+}
+button{
+  width: 100px;
+  height: 35px;
+  background-color: rgb(51, 51, 216);
+  color: white;
+}
+
+button:hover{
+  background-color: rgb(81, 81, 213);
+  cursor: pointer;
+}
+.room_container{
+  width: 600px;
+  height: 200px;
+  border:2px solid greenyellow;
+  border-radius: 2px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+.room_inp{
+  width: 300px;
+}
+.send{
+  color: black;
+  width: 95px;
+}
